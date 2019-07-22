@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestingSuite]">
+  <parameter name="Zip" value="75075"/>
+  <parameter name="Company" value="Nokia"/>
+  <parameter name="Email" value="John@gmail.com"/>
+  <parameter name="Address" value="3317 Finley"/>
+  <parameter name="Phone" value="2456677898"/>
+  <parameter name="State" value="Texas"/>
+  <parameter name="Loginemail" value="techfiosdemo@gmail.com"/>
+  <parameter name="City" value="Dallas"/>
+  <parameter name="Password" value="abc123"/>
+  <parameter name="Name" value="John Smith"/>
+  <test name="Addingcontact(failed)">
+    <parameter name="Zip" value="75075"/>
+    <parameter name="Company" value="Nokia"/>
+    <parameter name="Email" value="John@gmail.com"/>
+    <parameter name="Address" value="3317 Finley"/>
+    <parameter name="Phone" value="2456677898"/>
+    <parameter name="State" value="Texas"/>
+    <parameter name="Loginemail" value="techfiosdemo@gmail.com"/>
+    <parameter name="City" value="Dallas"/>
+    <parameter name="Password" value="abc123"/>
+    <parameter name="Name" value="John Smith"/>
+    <classes>
+      <class name="test.Addcontacttest">
+        <methods>
+          <include name="AddingContact" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- test.Addcontacttest -->
+    </classes>
+  </test> <!-- Addingcontact(failed) -->
+</suite> <!-- Failed suite [TestingSuite] -->
